@@ -1,0 +1,26 @@
+        
+
+
+
+
+
+
+        <i class="fa-solid fa-cow"></i>
+	<i class="fa-regular fa-squirrel"></i>
+
+<i class="fa-light fa-ram"></i>
+
+<i class="fa-solid fa-mosquito"></i>
+
+<i class="fa-solid fa-dove"></i>
+
+<i class="fa-solid fa-frog"></i>
+
+<i class="fa-solid fa-paw"></i>
+
+<i class="fa-brands fa-pagelines"></i>
+
+<i class="fa-brands fa-docker"></i>
+
+<i class="fa-solid fa-display"></i>
+<i class="fa-solid fa-oil-well"></i>
