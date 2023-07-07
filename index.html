@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>memory game</title>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body >
-    <div class="head fixed-top mt-2 w-50 mx-auto d-flex justify-content-around bg-light ">
-        <h2 class="text-success fw-bolder fa-fade">Level:1</h2>
-        <h3 class="fw-bold fs-2 text-danger m-auto">memory game</h3>
-    </div>
+<body  class="p-3">
+    <h5 class="text-light m-auto w-50 mt-3 text-center fixed-top fw-bold "> memory game</h5>
+   
     <audio id="winsound" src="audio/winSound.wav"></audio>
     <audio id="flipSound" src="audio/flipSound.wav"></audio>
     <audio id="flipped" src="audio/flipped.wav"></audio>
     <audio id="incorrect" src="audio/incorrect.mp3"></audio>
-<div class="wrapper mt-5">
+<div id="wrapper" class="wrapper mt-5">
+   
     <ul class="cards px-1 py-1 ">
         <li class="card ">
             <div class="view front-view">
@@ -162,16 +161,20 @@
         </li>
 
     </ul>
-    <div class="finish  justify-content-center align-items-center">
-        <div class="finished-content w-25 bg-light shadow fa-bounce h-25 rounded">
-                <h3 class="text-danger fw-bolder ">Congratulation !!</h3>
-                <h2>You are Win</h2>
-                    <button id="playagain" class="btn btn-success m-2">Play Again</button>
-                    <button id="playagain" class="btn btn-warning m-2">The next</button>
-        </div>
+   
+</div>
+
+<div class="finish  justify-content-center align-items-center">
+    <div class="finished-content w-lg-25 bg-light shadow fa-bounce h-25 py-2 px-2 rounded">
+            <h3 class="text-danger fw-bolder ">Congratulation !!</h3>
+            <h2 >You are Win</h2>
+                <button id="playagain" class="btn btn-sm w-lg-100 btn-success m-2">Play Again</button>
     </div>
 </div>
 
+<div class="footer fixed-bottom py-2 text-center text-light bg-dark">
+    &copy;2022 Designed by<span class="text-danger fw-bold"
+    >Mahmoud Abo Hussein</span ><br/> <span class="text-info">All Right Reserved</span></div>
 
 
 <script src="js/bootstrap.bundle.js" ></script>

@@ -84,4 +84,5 @@ function finished(){
  playagainBtn.addEventListener('click',function(){
     finish.classList.remove('d-flex');
     finish.classList.add('d-none');
+   
  }) 
